@@ -1,0 +1,32 @@
+{
+	"indent": 1,
+	"esversion": 6,
+	"-W086": true,
+	"-W097": false,
+	"-W083": true,
+	"-W084": true,
+	"-W080": true,
+	"-W040": true,
+	"-W030": true,
+	"eqeqeq": false,
+	"shadow": true,
+	"sub": true,
+	"globals": {
+		"window": true,
+		"document": true,
+		"alert": true,
+		"FileReader": true,
+		"XMLHttpRequest": true,
+		"NodeList": true,
+		"require": true,
+		"__dirname": true,
+		"module": true,
+		"process": true,
+		"console": true,
+		"Prism": true,
+		"marked": true,
+		"getComputedStyle": true,
+		"localStorage": true,
+		"fetch": true
+	}
+}

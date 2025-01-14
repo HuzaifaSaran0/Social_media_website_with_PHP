@@ -1,0 +1,111 @@
+/*	Setup
+	================================================ */
+
+/*	Layout
+	================================================ */
+
+article {
+	padding: 0.5em 1em;
+}
+
+	form#setup {
+
+	}
+
+	form#setup ul {
+		list-style-type: none;
+		padding: 0;
+		qcolor: #4A2A15;
+	}
+	form#setup>ul>li {
+		margin: 0 0 0.25em 0;
+	}
+	form#setup ul ul>li {
+
+	}
+	form#setup>ul>li {
+		display: grid;
+		grid-template-columns: 12em 1fr;
+		grid-template-rows: 2em auto;
+	}
+	form#setup>ul>li>span {
+		grid-row: 1/2;
+	}
+	form#setup>ul>li>ul {
+		grid-row: 1/3;
+	}
+
+	form#setup>ul>li:nth-of-type(1) {
+
+	}
+
+
+	form#setup ul>li>ul>li:nth-of-type(n+2) {
+		margin-top: .25em;
+	}
+	form#setup ul>li>ul>li+li {
+		qmargin-top: .125em;
+	}
+	form#setup ul>li>button,
+	form#setup ul>li>span {
+		font-size: 1rem !important;
+		font-family: "Source Sans Pro", sans-serif;
+		width: 100%;
+		font-weight: bold;
+		text-align: left;
+		background-color: #43443A;
+		padding: 0.5em 0.75em;
+		color: white;
+		border: none;
+	}
+	form#setup ul>li>span {
+		qline-height: 1.25;
+		qheight: 2.25rem;
+		background-color: rgb(164, 62, 22);
+	}
+	form#setup ul button:hover {
+		background-color: #B9C2A6;
+		color: #43443A;
+		text-decoration: none;
+	}
+
+	form#setup {
+		counter-reset: step;
+	}
+
+	form#setup ul>li button:before,
+	form#setup ul>li span.button:before {
+		counter-increment: step;
+		content: counter(step);
+		margin-right: .5em;
+	}
+	form#setup ul>li div {
+		background-color: #B9C2A6;
+		border: thin solid #B9C2A6;
+	}
+	form#setup ul>li div>label {
+		display: block;
+		font-size: 1rem;
+		background-color: #B9C2A6;
+		color: #43443A;
+		display: flex;
+		flex-direction: row;
+		padding: 0.125em 0.5em;
+		margin: 0.25em;
+	}
+	form#setup ul>li div>label:nth-of-type(1) {
+		margin-top: 0.25em;
+	}
+	form#setup ul>li div>label>span {
+		flex: 1;
+		padding: 0.5em 0.5em;
+		font-size: 1rem;
+	}
+	form#setup ul>li div>label>input {
+		flex: 2;
+	}
+
+	form#setup :is(input[type="text"],input[type="email"]) {
+		font-family: "Source Code Pro", monospace;
+		padding: 0.25em 0.75em;
+	}

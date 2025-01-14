@@ -1,0 +1,175 @@
+body {
+    background-color:rgb(228, 226, 225);
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ff6e40 !important;
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color:rgb(228, 226, 225);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* i want that navbar should be seen even when user sroll down */
+}
+
+/* Profile Banner */
+.profile-banner {
+    background: linear-gradient(135deg, #ff6e40, #ff9100);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.profile-banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.profile-banner p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Feed Section */
+.feed {
+    padding: 3rem 1rem;
+}
+
+.post-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.post-card img, .post-card video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.post-card h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.post-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Initially show 3 lines */
+    -webkit-box-orient: vertical;
+    transition: all 0.3s ease-in-out; /* Smoothly adjust height */
+}
+.post-card p {
+    display: inline-block;
+    position: relative;
+}
+
+.post-card p.expanded {
+    -webkit-line-clamp: unset; /* Remove line clamping */
+    overflow: visible; /* Allow full text to show */
+    height: auto; /* Automatically adjust height */
+}
+
+.post-card footer {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color:rgb(121, 125, 128);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.no-more-posts {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.like-btn, .dislike-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.comment-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0.6rem;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.like-btn.liked {
+    color: blue;
+}
+
+.dislike-btn.disliked {
+    color: red;
+}
+.see-more-btn, .see-less-btn {
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+#modalBodyContent img, #modalBodyContent video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.feed {
+    padding: 3rem 1rem;
+}
+
+.post-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.post-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: rgb(121, 125, 128);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.no-more-posts {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    font-size: 1.2rem;
+}

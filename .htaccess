@@ -1,0 +1,50 @@
+#	.htaccess
+
+#	.inc -> PHP
+	AddHandler application/x-httpd-php .inc
+
+#	Unicode
+	AddDefaultCharset UTF-8
+
+#	PHP
+	<IfModule php_module>
+		#	Errors
+			php_value   error_reporting -1
+			php_flag    display_errors On
+			php_flag    log_errors On	
+
+		#	Time Zone
+			php_value date.timezone Australia/Melbourne
+
+		#	Mail
+			php_value mail.log /var/log/phpmail.log
+			php_flag mail.add_x_header Off
+
+		#	Uploads
+			php_value	post_max_size 40M
+			php_value	upload_max_filesize 20M
+
+		#	Misc
+			php_value	max_execution_time 60
+
+		#	Sessions
+			php_value	session.name OZ-PHP-SESSION
+			php_value	session.use_only_cookies 1
+			php_value   session.gc_probability 1
+			php_value   session.gc_divisor 1
+			php_value   session.gc_maxlifetime 600
+
+		#	Turn off Output Buffering
+			php_flag output_buffering Off
+
+		#	UTF-8
+			php_value default_charset UTF-8
+
+		#	Legacy
+			php_flag	register_globals Off
+			php_flag	magic_quotes_gpc Off
+
+	</IfModule>
+
+# Custom 404 Error Page
+ErrorDocument 404 /404.php

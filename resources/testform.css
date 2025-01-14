@@ -1,0 +1,50 @@
+/*	testform.css
+	================================================
+	article#testform
+		h2	Accept
+		p#accept-string
+		h2	Cookies
+		table#cookies-table
+			tbody
+		h2	Get Data
+		table#get-table
+			tbody
+		h2	Post Data
+		table#post-table
+			tbody
+		h2	Raw Data
+		table#raw
+			tbody
+			tr#rawget
+				th
+				td
+			tr#rawpost
+				th
+				td
+	================================================ */
+
+article#testform h2 {
+	font-size: 2em;
+}
+
+article#testform :is(
+	p#accept-string,
+	th, td
+) {
+	font-family: "Source Code Pro";
+	font-size: 1.2em;
+}
+
+article#testform table {
+	border-collapse: collapse
+}
+
+article#testform :is(
+	th, td
+) {
+	padding: 0.25em 1em 0.25em 0;
+	border: thin #666;
+	border-style: solid none;
+}
+
+

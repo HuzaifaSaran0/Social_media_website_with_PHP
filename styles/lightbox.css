@@ -1,0 +1,124 @@
+/*	Light Box
+	================================================
+	The following are set in JavaScript:
+
+		div#lightbox-background {
+			position: fixed;
+			top: 0; left: 0;
+			width: 100%; height: 100%;
+			z-index: 1;
+		}
+		figure#lightbox {
+			position: fixed;
+			top: 50%; left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%);
+			z-index: 2;
+		}
+
+	The following are set here, but do need to be set:
+
+		div#lightbox-background {
+			background-color: #000;
+			opacity: .5;
+		}
+
+	The rest are whatever you like.
+	================================================ */
+
+/*	Catalogue
+	================================================
+	================================================ */
+
+	div#catalogue {
+		background-color: black;
+		border: thin solid #000;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		box-shadow: 4px 4px 4px #000;
+	}
+	div#catalogue img {
+		display: block;
+		background-color: white;
+		padding: .25em;
+		filter: grayscale(85%);
+		transition: filter .5s;
+	}
+	div#catalogue img:hover {
+		filter: grayscale(0);
+	}
+	div#catalogue a {
+		padding: .75em .5em;
+	}
+
+	div#catalogue a {
+		border: 4px solid;
+		background-color: #f8f8f8;
+		box-sizing: border-box;
+		border-color: #111 #000 #000 #111;
+		border-radius: 1px;
+		box-shadow:
+			inset 1px 1px 2px #666,
+			inset -1px -1px 2px #999;
+		padding: 6px;
+	}
+
+	div#catalogue a>img {
+		padding: 0;
+		border: 2px solid;
+		border-color: #ddd #fff #f8f8f8 #eee;
+	}
+
+/*	Background
+	================================================
+	================================================ */
+
+	div#lightbox-background {
+
+	}
+
+/*	Figure
+	================================================
+	================================================ */
+
+	figure#lightbox {
+		border: thin solid #666;
+		padding: 2em 1.5em 1em 1.5em;
+		background-color: #f8f8f8;
+		border-radius: 90% 1em 90% 1em/ 1.5em 90% 1em 90%;
+
+		transform-origin: 0 0;
+		transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 2s;
+	}
+
+	figure#lightbox>img {
+		border-radius: 8px;
+		padding: 4px;
+	}
+
+	figure#lightbox.closed {
+		opacity: 0;
+		transform: scale(0) translate(-50%, -50%);
+	}
+
+	figure#lightbox.open {
+		opacity: 1;
+		transform: scale(1) translate(-50%, -50%);
+	}
+
+
+/*	Caption
+	================================================
+	================================================ */
+
+	figure#lightbox>figcaption {
+		font-weight: bold;
+		text-align: center;
+
+		padding: 1em;
+		font-size: 2em;
+		padding: .5rem;
+		margin: 0;
+		text-shadow: 0 1px 0px white;
+	}

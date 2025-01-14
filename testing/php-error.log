@@ -1,0 +1,194 @@
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:14 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:1) in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 10
+[14-Dec-2024 02:50:22 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:14
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(14): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 14
+[14-Dec-2024 02:52:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:38 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:38 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:38 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:38 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:52:38 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:54:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:54:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:54:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:54:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:54:12 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:03 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:03 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:03 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:03 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:03 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:08 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 02:55:42 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'c.created_at' in 'field list' in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php:23
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php(23): mysqli->prepare('SELECT c.commen...')
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\load_comments.php on line 23
+[14-Dec-2024 04:45:49 Australia/Melbourne] PHP Warning:  Undefined array key "post_id" in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 17
+[14-Dec-2024 04:45:49 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php:25
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 25
+[14-Dec-2024 04:46:23 Australia/Melbourne] PHP Warning:  Undefined array key "post_id" in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 17
+[14-Dec-2024 04:46:23 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php:25
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 25
+[14-Dec-2024 04:58:09 Australia/Melbourne] PHP Warning:  Undefined array key "post_id" in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 17
+[14-Dec-2024 04:58:09 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php:25
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 25
+[14-Dec-2024 04:58:52 Australia/Melbourne] PHP Warning:  Undefined array key "post_id" in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 17
+[14-Dec-2024 04:58:52 Australia/Melbourne] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php:25
+Stack trace:
+#0 D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in D:\AdminLTE-3.2.0 Template\xampp\htdocs\socialmediawebproject\testing\submit_comment.php on line 25
